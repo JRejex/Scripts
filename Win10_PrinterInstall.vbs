@@ -23,8 +23,8 @@ strPrnmngr = "C:\Windows\System32\Printing_Admin_Scripts\en-US\prnmngr.vbs"
 
 'Set text and formatting for Input Box
 '*************************************************************************
-strMsg = strMsg & "Enter 1 for All Building 1200 NIPR Printers" & vbCR
-strMsg = strMsg & "Enter 2 for Building 1204 Dell Printer" & vbCR
+strMsg = strMsg & "Enter 1 for All Building XX Printers" & vbCR
+strMsg = strMsg & "Enter 2 for Building XX Dell Printer" & vbCR
 strMsg = strMsg & "Enter Q or q to Quit" & vbCR
 '*************************************************************************
 
@@ -40,7 +40,7 @@ Select Case inp01
 	KM64Rm102
 	KM64Rm207
 
-    Case "2"	'Launches Building 1204 Dell Printer install
+    Case "2"	'Launches Building XX Dell Printer install
 	Dell1204	'Launches the Dell1204 function	
 
     Case "Q"
@@ -61,9 +61,9 @@ Function Sample
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "Sample PCL6" 
-sDrvrLocation = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\"
-sDrvrFile = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\*.INF"
-sPrntrIP = "132.56.XXX.XXX"
+sDrvrLocation = ""
+sDrvrFile = ""
+sPrntrIP = "XXX.XX.XXX.XXX"
 sPrntrName= "Sample Printer"
 '*************************************************************************
 Install  ' Launches the Install function
@@ -76,8 +76,8 @@ Function KM64Rm233
 sDrvrName = "KONICA MINOLTA PS Color Laser Class Driver" 
 sDrvrLocation = ""
 sDrvrFile = ""
-sPrntrIP = "132.56.112.18" 
-sPrntrName= "Command Section Rm233 Konica Printer Duplex"
+sPrntrIP = "XXX.XX.XXX.XXX" 
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
@@ -89,8 +89,8 @@ Function KM64Rm101
 sDrvrName = "KONICA MINOLTA PS Color Laser Class Driver" 
 sDrvrLocation = ""
 sDrvrFile = ""
-sPrntrIP = "132.56.112.19"
-sPrntrName= "GHOC Rm101 Konica Printer Duplex"
+sPrntrIP = "X.X.X.X"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
@@ -102,7 +102,7 @@ Function KM64Rm102
 sDrvrName = "KONICA MINOLTA PS Color Laser Class Driver" 
 sDrvrLocation = ""
 sDrvrFile = ""
-sPrntrIP = "132.56.112.21"
+sPrntrIP = "X.X.X.X"
 sPrntrName= "Mission Planning Rm102 Konica Printer Duplex"
 '*************************************************************************
 Install  ' Launches the Install function
@@ -115,7 +115,7 @@ Function KM64Rm207
 sDrvrName = "KONICA MINOLTA PS Color Laser Class Driver" 
 sDrvrLocation = ""
 sDrvrFile = ""
-sPrntrIP = "132.56.112.24"
+sPrntrIP = "X.X.X.X"
 sPrntrName= "UDM Rm207 Konica Printer Duplex"
 '*************************************************************************
 Install  ' Launches the Install function
@@ -126,10 +126,10 @@ Function Dell1204
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "Dell 5130cdn PCL6" 
-sDrvrLocation = "\\baey-fs-05pv\beale_9rw_og\ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOA\Drivers\Printers\Dell_5130cdn\64-bit"
-sDrvrFile = "\\baey-fs-05pv\beale_9rw_og\ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOA\Drivers\Printers\Dell_5130cdn\64-bit\dlxbszi.INF"
-sPrntrIP = "132.56.112.35"
-sPrntrName= "Bldg 1204 Dell Color Printer"
+sDrvrLocation = ""
+sDrvrFile = ""
+sPrntrIP = "X.X.X.X"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
@@ -139,10 +139,10 @@ Function DellMission
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "Dell 5130cdn Color Laser PCL6"
-sDrvrLocation = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\Dell_5130cdn\64-bit"
-sDrvrFile = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\Dell_5130cdn\64-bit\dlxbszi.INF"
-sPrntrIP = "132.56.229.12"
-sPrntrName= "12 RS Bldg 1200 Mission Planning Printer"
+sDrvrLocation = ""
+sDrvrFile = ""
+sPrntrIP = "X.X.X.X"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
@@ -152,10 +152,10 @@ Function DellIT
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "Dell 5130cdn Color Laser PCL6" 
-sDrvrLocation = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\Dell_5130cdn\64-bit"
-sDrvrFile = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\Dell_5130cdn\64-bit\dlxbszi.INF"
-sPrntrIP = "132.56.229.16"
-sPrntrName= "12 RS Bldg 1200 IT Shop Printer"
+sDrvrLocation = ""
+sDrvrFile = ""
+sPrntrIP = "X.X.X.X"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
@@ -164,10 +164,10 @@ Function HP1RSIA
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "HP Universal Printing PCL 6" 
-sDrvrLocation = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\HP_Unified_Driver\64-bit"
-sDrvrFile = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\HP_Unified_Driver\64-bit\hpcu112u.INF"
-sPrntrIP = "132.56.9.10"
-sPrntrName= "1 RS Bldg 1025 GH-Imagery Analysis Printer"
+sDrvrLocation = ""
+sDrvrFile = ""
+sPrntrIP = "X.X.X.X"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
@@ -176,10 +176,10 @@ Function HP1RSCBT
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "HP Universal Printing PCL 6" 
-sDrvrLocation = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\HP_Unified_Driver\64-bit"
-sDrvrFile = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\HP_Unified_Driver\64-bit\hpcu112u.INF"
-sPrntrIP = "132.56.9.7"
-sPrntrName= "1 RS Bldg 1025 GH-CBT Room Printer"
+sDrvrLocation = ""
+sDrvrFile = ""
+sPrntrIP = "X.X.X.X"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
@@ -188,10 +188,10 @@ Function HP1RSSched
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "HP Universal Printing PCL 6" 
-sDrvrLocation = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\HP_Unified_Driver\64-bit"
-sDrvrFile = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\HP_Unified_Driver\64-bit\hpcu112u.INF"
-sPrntrIP = "132.56.9.8"
-sPrntrName= "1 RS Bldg 1025 GH-Scheduling Printer"
+sDrvrLocation = ""
+sDrvrFile = ""
+sPrntrIP = "X.X.X.X"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
@@ -200,10 +200,10 @@ Function HP1RSDuty
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "HP Universal Printing PCL 6" 
-sDrvrLocation = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\HP_Unified_Driver\64-bit"
-sDrvrFile = "\\bab-cs-fas01\9rw_og_ws\9rw_og_12rs_ws\3_Teams\2_DIRECTOR_OF_OPERATIONS\12_DOSFI\Software_and_Drivers\Drivers\Printers\HP_Unified_Driver\64-bit\hpcu112u.INF"
-sPrntrIP = "132.56.9.187"
-sPrntrName= "1 RS Bldg 1025 GH-Duty Desk"
+sDrvrLocation = ""
+sDrvrFile = ""
+sPrntrIP = "X.X.X.X"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
