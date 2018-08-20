@@ -23,7 +23,7 @@ strPrnmngr = "C:\Windows\System32\Printing_Admin_Scripts\en-US\prnmngr.vbs"
 
 'Set text and formatting for Input Box
 '*************************************************************************
-strMsg = strMsg & "Enter 1 for All Building XX Printers" & vbCR
+strMsg = strMsg & "Enter 1 for All Building X KM Printers" & vbCR
 strMsg = strMsg & "Enter 2 for Building XX Dell Printer" & vbCR
 strMsg = strMsg & "Enter Q or q to Quit" & vbCR
 '*************************************************************************
@@ -34,14 +34,14 @@ strMsg = strMsg & "Enter Q or q to Quit" & vbCR
 Do While strFlag = False
 inp01 = InputBox(strMsg,"Make your selection")
 Select Case inp01
-    Case "1"	'All Building 1200 NIPR Printers
-        KM64Rm233
-	KM64Rm101
-	KM64Rm102
-	KM64Rm207
+    Case "1"	'All Building X KMPrinters install
+        KMPrinter1
+	KMPrinter2
+	KMPrinter3
+	KMPrinter4
 
-    Case "2"	'Launches Building XX Dell Printer install
-	Dell1204	'Launches the Dell1204 function	
+    Case "2"	'Launches Building X Dell Printer install
+	DellPrinter1	'Launches the DellPrinter1 function	
 
     Case "Q"
         MsgBox "Goodbye",64,strTitle
@@ -69,8 +69,8 @@ sPrntrName= "Sample Printer"
 Install  ' Launches the Install function
 End Function
 
-Function KM64Rm233
-'MsgBox "Installing the Rm233 KONICA MINOLTA c353 Series PS(P) driver"',64,strTitle
+Function KMPrinter1
+'MsgBox "Installing the KONICA MINOLTA c353 Series PS(P) driver"',64,strTitle
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "KONICA MINOLTA PS Color Laser Class Driver" 
@@ -82,8 +82,8 @@ sPrntrName= ""
 Install  ' Launches the Install function
 End Function
 
-Function KM64Rm101
-'MsgBox "Installing the Rm101 KONICA MINOLTA c353 PS(P) driver",64,strTitle
+Function KMPrinter2
+'MsgBox "Installing the KONICA MINOLTA c353 PS(P) driver",64,strTitle
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "KONICA MINOLTA PS Color Laser Class Driver" 
@@ -95,34 +95,34 @@ sPrntrName= ""
 Install  ' Launches the Install function
 End Function
 
-Function KM64Rm102
-'MsgBox "Installing the Rm102 KONICA MINOLTA c252 PS(P) driver",64,strTitle
+Function KMPrinter3
+'MsgBox "Installing the KONICA MINOLTA c252 PS(P) driver",64,strTitle
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "KONICA MINOLTA PS Color Laser Class Driver" 
 sDrvrLocation = ""
 sDrvrFile = ""
 sPrntrIP = "X.X.X.X"
-sPrntrName= "Mission Planning Rm102 Konica Printer Duplex"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
 
-Function KM64Rm207
-'MsgBox "Installing the Rm207 KONICA MINOLTA c252 PS(P) driver",64,strTitle
+Function KMPrinter4
+'MsgBox "Installing the KONICA MINOLTA c252 PS(P) driver",64,strTitle
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "KONICA MINOLTA PS Color Laser Class Driver" 
 sDrvrLocation = ""
 sDrvrFile = ""
 sPrntrIP = "X.X.X.X"
-sPrntrName= "UDM Rm207 Konica Printer Duplex"
+sPrntrName= ""
 '*************************************************************************
 Install  ' Launches the Install function
 End Function
 
-Function Dell1204
-'MsgBox "Installing the Building 1204 Dell driver",64,strTitle
+Function DellPrinter1
+'MsgBox "Installing the Dell driver",64,strTitle
 'Sets values for the Variables
 '*************************************************************************
 sDrvrName = "Dell 5130cdn PCL6" 
@@ -134,79 +134,7 @@ sPrntrName= ""
 Install  ' Launches the Install function
 End Function
 
-Function DellMission
-'MsgBox "Installing the Building 1200 Mission Planning Color Printer",64,strTitle
-'Sets values for the Variables
-'*************************************************************************
-sDrvrName = "Dell 5130cdn Color Laser PCL6"
-sDrvrLocation = ""
-sDrvrFile = ""
-sPrntrIP = "X.X.X.X"
-sPrntrName= ""
-'*************************************************************************
-Install  ' Launches the Install function
-End Function
 
-Function DellIT
-'MsgBox "Installing the Building 1200 IT Color Printer",64,strTitle
-'Sets values for the Variables
-'*************************************************************************
-sDrvrName = "Dell 5130cdn Color Laser PCL6" 
-sDrvrLocation = ""
-sDrvrFile = ""
-sPrntrIP = "X.X.X.X"
-sPrntrName= ""
-'*************************************************************************
-Install  ' Launches the Install function
-End Function
-
-Function HP1RSIA
-'Sets values for the Variables
-'*************************************************************************
-sDrvrName = "HP Universal Printing PCL 6" 
-sDrvrLocation = ""
-sDrvrFile = ""
-sPrntrIP = "X.X.X.X"
-sPrntrName= ""
-'*************************************************************************
-Install  ' Launches the Install function
-End Function
-
-Function HP1RSCBT
-'Sets values for the Variables
-'*************************************************************************
-sDrvrName = "HP Universal Printing PCL 6" 
-sDrvrLocation = ""
-sDrvrFile = ""
-sPrntrIP = "X.X.X.X"
-sPrntrName= ""
-'*************************************************************************
-Install  ' Launches the Install function
-End Function
-
-Function HP1RSSched
-'Sets values for the Variables
-'*************************************************************************
-sDrvrName = "HP Universal Printing PCL 6" 
-sDrvrLocation = ""
-sDrvrFile = ""
-sPrntrIP = "X.X.X.X"
-sPrntrName= ""
-'*************************************************************************
-Install  ' Launches the Install function
-End Function
-
-Function HP1RSDuty
-'Sets values for the Variables
-'*************************************************************************
-sDrvrName = "HP Universal Printing PCL 6" 
-sDrvrLocation = ""
-sDrvrFile = ""
-sPrntrIP = "X.X.X.X"
-sPrntrName= ""
-'*************************************************************************
-Install  ' Launches the Install function
-End Function
 
 
 
