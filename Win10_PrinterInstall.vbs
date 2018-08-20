@@ -1,4 +1,3 @@
-Printer install Win 10
 On Error Resume Next
 
 'START Declaring Variables
