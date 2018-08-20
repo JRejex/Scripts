@@ -1,4 +1,3 @@
-Old Profile Copy
 @echo off
 echo Press Any Key to Load old Profile...
 @pause
