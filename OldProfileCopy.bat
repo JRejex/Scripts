@@ -1,7 +1,6 @@
 @echo off
 echo Press Any Key to Load old Profile...
 @pause
-@start /min Hawks.bat
 @echo Loading Profile..
 Timeout /t 2
 robocopy /pf /mir /r:1 /w:5 /XO /XX D:\Users\%username% %userprofile%\ /xf *.TMP /xD "D:\Users\%username%\Appdata" "D:\Users\%username%\Local Settings"
