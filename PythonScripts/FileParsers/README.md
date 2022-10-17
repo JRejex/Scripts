@@ -19,6 +19,8 @@ Python script will process a directory and identify files forensic artifacts.
 - Hex Header
 - FileHash
 
+Example Output:
+![FileForensicsProcessor_Screenshot](https://user-images.githubusercontent.com/42547204/196284418-dcb096b3-c542-4f63-856a-3a24b56e4c64.JPG)
 
 
 # Digital_img_Finder.py
@@ -30,3 +32,6 @@ Returns the following output upon identification:
 - Width
 - Height
 - Mode
+
+Example Output:
+![Digital_img_Finder](https://user-images.githubusercontent.com/42547204/196284049-5532d10e-7297-4033-84cd-912f20b975a1.JPG)
