@@ -1,2 +1,30 @@
-# Scripts
-Handy Scripts
+## Handy Scripts for Computer Forensics and Network Administration
+---------------------------------
+Hello {0x77 0x6f 0x72 0x6c 0x64}! Welcome to my github.\
+My name is **James Rejouis**. I'm a cyber security enthusiast and avid believer in programming for effeciency.\
+Here are a collection of scripts I created with varying purposes alligned to Cyber Security,\
+Network Adminstration and Forensics Artifact Collection.\
+Scripts are finished however there is always room for new features and enhancements. 
+
+![wormimage](https://user-images.githubusercontent.com/42547204/196294695-6e918658-6d3d-4c03-a71d-4ae15f204cd9.JPG)
+
+
+Here are all the tools currently within this project:
+
+## Command and Control
+- [PythonScripts/CommandAndControl/TCP_Client.py](https://github.com/JRejex/Scripts/blob/master/PythonScripts/CommandAndControl/)
+- [PythonScripts/CommandAndControl/TCP_Server.py](https://github.com/JRejex/Scripts/blob/master/PythonScripts/CommandAndControl/)
+## File Parsers
+- [PythonScripts/FileParsers/Digital_img_Finder.py](https://github.com/JRejex/Scripts/blob/master/PythonScripts/FileParsers/)
+- [PythonScripts/FileParsers/FileForensicsProcessor.py](https://github.com/JRejex/Scripts/blob/master/PythonScripts/FileParsers/)
+## Log Parsers
+- [PythonScripts/LogParsers/FirewallLogProcessor.py](https://github.com/JRejex/Scripts/blob/master/PythonScripts/LogParsers/)
+## Memory Forensics
+- [PythonScripts/MemoryForensics/MemDump_Email_Urls_Extractor.py](https://github.com/JRejex/Scripts/blob/master/PythonScripts/MemoryForensics/)
+## Web Scraper
+- [PythonScripts/WebScraper/WebScraper.py](https://github.com/JRejex/Scripts/tree/master/PythonScripts/WebScraper)
+## Pandas
+- [PythonScripts/pandas/Panda_DataFrame_Parser.py ](https://github.com/JRejex/Scripts/tree/master/PythonScripts/pandas)
+## Random Admin Scripts
+- [Mapdrive.bat](https://github.com/JRejex/Scripts/blob/master/Mapdrive.bat)
+- [RunGpudateRemotely.bat](https://github.com/JRejex/Scripts/blob/master/RunGpudateRemotely.bat) & [RunGpudateRemotely.ps1](https://github.com/JRejex/Scripts/blob/master/RunGpudateRemotely.ps1)
