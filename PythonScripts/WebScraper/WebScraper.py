@@ -122,8 +122,9 @@ if __name__ == '__main__':
     invalidTime = GetTime('BAD')
     print("Invalid Time: ", invalidTime)    
 
-url = 'https://casl.website/login'
-base = 'https://casl.website'
+url = 'https://github.com/JRejex/' # CHANGE TO TARGET URL
+base = 'https://github.com' # CHANGE TO TARGET URL BASE
+
 OUTPUT_SAVE = "./OUTPUT/"  # Directory to store output
         
 # Create the directory if necessary
