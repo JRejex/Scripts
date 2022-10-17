@@ -28,7 +28,7 @@ if __name__ == '__main__':
     pd.set_option('display.width', 2000)
 
     # Create a Panda Dataframe from a JSON File
-    df1 = pd.read_csv(r'./ipObservations.csv')  # 1) Create a Panda DataFrame from the ipObservations.csv.   
+    df1 = pd.read_csv(r'./Pandas_ExampleSourceDataSet.csv')  # 1) Create a Panda DataFrame from the Pandas_ExampleSourceDataSet.csv.   
     print(df1.head(3))
     print("Removing IPv6 rows from Dataframe...", end="")
     df2 = df1.loc[df1["FRAME-TYPE"] != "IPV6" ] # 2) Remove any rows that contain a Frame Type of "IPV6"
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     print("Sorting Dataframe by highest observed connection")
     df4 = df3.sort_values(by='Observed', ascending=False) # 4) You will then sort and display the output of your DataFrame with the highest observed connection first.
     print(df4)
-    df4.to_csv("Rejouis-WK-2.csv") # 5) Finally you will save your resulting DataFrame as a .csv file 
+    df4.to_csv("output.csv") # 5) Finally you will save your resulting DataFrame as a .csv file 
 
 
     
