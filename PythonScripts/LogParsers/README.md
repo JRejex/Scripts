@@ -1,6 +1,6 @@
 ## Log Parsers
 ---------------------------------------
-**Process Log files for key information**\
+**Process Log files for key information**
 
 ```
 Tools:
