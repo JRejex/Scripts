@@ -21,6 +21,7 @@ Here are all the tools currently within this project:
 - [PythonScripts/LogParsers/FirewallLogProcessor.py](https://github.com/JRejex/Scripts/blob/master/PythonScripts/LogParsers/)
 ## Memory Forensics
 - [PythonScripts/MemoryForensics/MemDump_Email_Urls_Extractor.py](https://github.com/JRejex/Scripts/blob/master/PythonScripts/MemoryForensics/)
+- [BashScripts/VolatilityHarvester.sh](https://github.com/JRejex/Scripts/tree/master/BashScripts/MemoryForensics)
 ## Web Scraper
 - [PythonScripts/WebScraper/WebScraper.py](https://github.com/JRejex/Scripts/tree/master/PythonScripts/WebScraper)
 ## Pandas
