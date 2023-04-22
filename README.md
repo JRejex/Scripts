@@ -1,9 +1,9 @@
 ## Handy Scripts for Computer Forensics and Network Administration
 ---------------------------------
 Hello {0x77 0x6f 0x72 0x6c 0x64}! Welcome to my github.\
-My name is **James Rejouis**. I'm a cyber security enthusiast and avid believer in programming for effeciency.\
-Here are a collection of scripts I created with varying purposes alligned to Cyber Security,\
-Network Adminstration and Forensics Artifact Collection.\
+My name is **James Rejouis**. I'm a cyber security enthusiast and avid believer in programming for efficiency.\
+Here are a collection of scripts I created with varying purposes aligned to Cyber Security,\
+Network Administration and Forensics Artifact Collection.\
 Scripts are finished however there is always room for new features and enhancements. 
 
 ![wormimage](https://user-images.githubusercontent.com/42547204/196294695-6e918658-6d3d-4c03-a71d-4ae15f204cd9.JPG)
