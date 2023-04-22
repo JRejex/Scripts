@@ -1,7 +1,7 @@
 ## Handy Scripts for Computer Forensics and Network Administration
 ---------------------------------
 Hello {0x77 0x6f 0x72 0x6c 0x64}! Welcome to my github.\
-My name is **James Rejouis**. I'm a cyber security enthusiast and avid believer in programming for efficiency.\
+My name is **James** but you can call me Juice! I'm a cyber security enthusiast and avid believer in programming for efficiency.\
 Here are a collection of scripts I created with varying purposes aligned to Cyber Security,\
 Network Administration and Forensics Artifact Collection.\
 Scripts are finished however there is always room for new features and enhancements. 
@@ -28,4 +28,4 @@ Here are all the tools currently within this project:
 - [PythonScripts/pandas/Panda_DataFrame_Parser.py ](https://github.com/JRejex/Scripts/tree/master/PythonScripts/pandas)
 ## Random Admin Scripts
 - [Mapdrive.bat](https://github.com/JRejex/Scripts/blob/master/Mapdrive.bat)
-- [RunGpudateRemotely.bat](https://github.com/JRejex/Scripts/blob/master/RunGpudateRemotely.bat) & [RunGpudateRemotely.ps1](https://github.com/JRejex/Scripts/blob/master/RunGpudateRemotely.ps1)
+- [OldProfileCopy.bat](https://github.com/JRejex/Scripts/blob/master/OldProfileCopy.bat)
