@@ -6,7 +6,7 @@ Here are a collection of scripts I created with varying purposes aligned to Cybe
 Network Administration and Forensics Artifact Collection.\
 Scripts are finished however there is always room for new features and enhancements. 
 However, they are not seperated into repositories because I have no current need to maintain or enhance these scripts. 
-Keep an eye out for future projects from me that will earn their own repository! Also feel free to check out my new [blog](https://jrejex.ghost.io/)
+Keep an eye out for future projects from me that will earn their own repository! Also feel free to check out my new [blog!](https://jrejex.ghost.io/)
 
 ![wormimage](https://user-images.githubusercontent.com/42547204/196294695-6e918658-6d3d-4c03-a71d-4ae15f204cd9.JPG)
 
